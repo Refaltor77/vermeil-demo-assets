@@ -1,0 +1,61 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
+      <stop offset="0%" stop-color="#1B1610"/>
+      <stop offset="55%" stop-color="#100D09"/>
+      <stop offset="100%" stop-color="#070604"/>
+    </radialGradient>
+    <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5DC8B"/>
+      <stop offset="30%" stop-color="#D3AC3B"/>
+      <stop offset="60%" stop-color="#96731D"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8C6D1F"/>
+      <stop offset="45%" stop-color="#E8C863"/>
+      <stop offset="55%" stop-color="#F5DC8B"/>
+      <stop offset="100%" stop-color="#9A7A22"/>
+    </linearGradient>
+    <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2F0EA"/>
+      <stop offset="45%" stop-color="#B9B5AA"/>
+      <stop offset="100%" stop-color="#8E8A7F"/>
+    </linearGradient>
+    <linearGradient id="roseV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4C9AE"/>
+      <stop offset="50%" stop-color="#D99B72"/>
+      <stop offset="100%" stop-color="#A96F4C"/>
+    </linearGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#DCE8E8"/>
+      <stop offset="100%" stop-color="#7E938F"/>
+    </linearGradient>
+    <linearGradient id="onyxgem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3A3E"/>
+      <stop offset="60%" stop-color="#121214"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+
+<rect width="1200" height="1500" fill="url(#bg)"/>
+<ellipse cx="600.0" cy="690.0" rx="430" ry="380" fill="url(#glow)"/>
+
+  <g transform="rotate(-16 600.0 690.0)">
+    <ellipse cx="600.0" cy="690.0" rx="235" ry="98.7" fill="none" stroke="url(#silverV)" stroke-width="34"/>
+    <ellipse cx="600.0" cy="690.0" rx="235" ry="98.7" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="6" stroke-dasharray="150 999" stroke-dashoffset="-40" stroke-linecap="round"/>
+    <ellipse cx="600.0" cy="701.0" rx="227" ry="94.7" fill="none" stroke="#000000" stroke-opacity="0.35" stroke-width="10"/>
+  </g>
+
+<ellipse cx="600.0" cy="1240" rx="420" ry="70" fill="url(#floor)"/>
+</svg>
