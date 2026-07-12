@@ -1,0 +1,59 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#1E1812"/>
+      <stop offset="55%" stop-color="#100D09"/>
+      <stop offset="100%" stop-color="#060504"/>
+    </radialGradient>
+    <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5DC8B"/>
+      <stop offset="30%" stop-color="#D3AC3B"/>
+      <stop offset="60%" stop-color="#96731D"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8C6D1F"/>
+      <stop offset="45%" stop-color="#E8C863"/>
+      <stop offset="55%" stop-color="#F5DC8B"/>
+      <stop offset="100%" stop-color="#9A7A22"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17130E"/>
+      <stop offset="50%" stop-color="#0D0B08"/>
+      <stop offset="100%" stop-color="#141109"/>
+    </linearGradient>
+  </defs>
+
+<rect width="1600" height="1000" fill="url(#silk)"/>
+<ellipse cx="800" cy="430" rx="760" ry="430" fill="url(#pool)"/>
+<g opacity="0.12" stroke="#C9A227" stroke-width="1">
+  <circle cx="800" cy="500" r="120"/>
+  <circle cx="800" cy="500" r="240"/>
+  <circle cx="800" cy="500" r="360"/>
+  <circle cx="800" cy="500" r="480"/>
+  <circle cx="800" cy="500" r="600"/>
+  <circle cx="800" cy="500" r="720"/>
+  <circle cx="800" cy="500" r="840"/>
+</g>
+<g transform="translate(430,560)">
+  <ellipse cx="0" cy="0" rx="200" ry="84" fill="none" stroke="url(#goldV)" stroke-width="42" transform="rotate(-16)"/>
+</g>
+<path d="M 700,150 C 760,360 840,470 950,540" fill="none" stroke="url(#goldH)" stroke-width="9" stroke-linecap="round"/>
+<path d="M 700,150 C 660,340 690,480 780,600" fill="none" stroke="url(#goldH)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+<path d="M 862,600 C 918,656 918,738 860,782 C 802,738 802,656 862,600 Z" fill="url(#goldV)"/>
+<g transform="translate(1210,620) rotate(-10)">
+  <circle cx="0" cy="0" r="170" fill="none" stroke="url(#goldV)" stroke-width="34"/>
+  <circle cx="-120" cy="-120" r="30" fill="url(#goldV)"/>
+  <circle cx="120" cy="-120" r="30" fill="url(#goldV)"/>
+</g>
+<ellipse cx="800" cy="880" rx="700" ry="90" fill="url(#floor)"/>
+</svg>

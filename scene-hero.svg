@@ -1,0 +1,72 @@
+<svg width="2400" height="1400" viewBox="0 0 2400 1400" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#1E1812"/>
+      <stop offset="55%" stop-color="#100D09"/>
+      <stop offset="100%" stop-color="#060504"/>
+    </radialGradient>
+    <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5DC8B"/>
+      <stop offset="30%" stop-color="#D3AC3B"/>
+      <stop offset="60%" stop-color="#96731D"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8C6D1F"/>
+      <stop offset="45%" stop-color="#E8C863"/>
+      <stop offset="55%" stop-color="#F5DC8B"/>
+      <stop offset="100%" stop-color="#9A7A22"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17130E"/>
+      <stop offset="50%" stop-color="#0D0B08"/>
+      <stop offset="100%" stop-color="#141109"/>
+    </linearGradient>
+  </defs>
+
+<rect width="2400" height="1400" fill="url(#silk)"/>
+<ellipse cx="1560" cy="620" rx="900" ry="640" fill="url(#pool)"/>
+<g opacity="0.14" stroke="#C9A227" stroke-width="1">
+  <line x1="640" y1="0" x2="340" y2="1400"/>
+  <line x1="800" y1="0" x2="500" y2="1400"/>
+  <line x1="960" y1="0" x2="660" y2="1400"/>
+  <line x1="1120" y1="0" x2="820" y2="1400"/>
+  <line x1="1280" y1="0" x2="980" y2="1400"/>
+  <line x1="1440" y1="0" x2="1140" y2="1400"/>
+  <line x1="1600" y1="0" x2="1300" y2="1400"/>
+  <line x1="1760" y1="0" x2="1460" y2="1400"/>
+  <line x1="1920" y1="0" x2="1620" y2="1400"/>
+  <line x1="2080" y1="0" x2="1780" y2="1400"/>
+  <line x1="2240" y1="0" x2="1940" y2="1400"/>
+  <line x1="2400" y1="0" x2="2100" y2="1400"/>
+</g>
+<g transform="translate(1750,760) scale(1.5) rotate(-14)">
+      <ellipse cx="0" cy="0" rx="250" ry="105" fill="none" stroke="url(#goldV)" stroke-width="52"/>
+      <ellipse cx="0" cy="20" rx="242" ry="101" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="9"/>
+      <ellipse cx="0" cy="0" rx="250" ry="105" fill="none" stroke="#FFF" stroke-opacity="0.22" stroke-width="6" stroke-dasharray="130 999" stroke-dashoffset="-60" stroke-linecap="round"/><polygon points="0,-196 40,-138 0,-90 -40,-138" fill="#E7EFEE" stroke="#F5DC8B" stroke-width="3"/>
+        <rect x="-16" y="-100" width="32" height="26" rx="6" fill="url(#goldV)"/></g>
+<g transform="translate(1370,950) scale(0.9) rotate(-26)">
+      <ellipse cx="0" cy="0" rx="250" ry="105" fill="none" stroke="url(#goldV)" stroke-width="52"/>
+      <ellipse cx="0" cy="20" rx="242" ry="101" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="9"/>
+      <ellipse cx="0" cy="0" rx="250" ry="105" fill="none" stroke="#FFF" stroke-opacity="0.22" stroke-width="6" stroke-dasharray="130 999" stroke-dashoffset="-60" stroke-linecap="round"/></g>
+<g transform="translate(1980,1010) scale(0.72) rotate(-8)">
+  <circle cx="0" cy="0" r="250" fill="none" stroke="url(#goldV)" stroke-width="46"/>
+  <circle cx="-176" cy="-176" r="40" fill="url(#goldV)"/>
+  <circle cx="176" cy="-176" r="40" fill="url(#goldV)"/>
+</g>
+<path d="M 340,180 C 420,470 520,660 640,780" fill="none" stroke="url(#goldH)" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+<path d="M 340,180 C 300,420 330,640 420,830" fill="none" stroke="url(#goldH)" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+<circle cx="340" cy="168" r="24" fill="none" stroke="url(#goldV)" stroke-width="10"/>
+<path d="M 530,860 C 590,920 590,1010 528,1058 C 466,1010 466,920 530,860 Z" fill="url(#goldV)"/>
+<ellipse cx="1600" cy="1210" rx="760" ry="120" fill="url(#floor)"/>
+<ellipse cx="480" cy="1160" rx="420" ry="90" fill="url(#floor)"/>
+</svg>

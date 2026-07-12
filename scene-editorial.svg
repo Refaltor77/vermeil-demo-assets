@@ -1,0 +1,56 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#1E1812"/>
+      <stop offset="55%" stop-color="#100D09"/>
+      <stop offset="100%" stop-color="#060504"/>
+    </radialGradient>
+    <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5DC8B"/>
+      <stop offset="30%" stop-color="#D3AC3B"/>
+      <stop offset="60%" stop-color="#96731D"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8C6D1F"/>
+      <stop offset="45%" stop-color="#E8C863"/>
+      <stop offset="55%" stop-color="#F5DC8B"/>
+      <stop offset="100%" stop-color="#9A7A22"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17130E"/>
+      <stop offset="50%" stop-color="#0D0B08"/>
+      <stop offset="100%" stop-color="#141109"/>
+    </linearGradient>
+  </defs>
+
+<rect width="1200" height="1500" fill="url(#bg)"/>
+<ellipse cx="600" cy="640" rx="520" ry="480" fill="url(#pool)"/>
+<g opacity="0.5">
+  <rect x="180" y="260" width="840" height="980" rx="10" fill="none" stroke="#C9A227" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="220" y="300" width="760" height="900" rx="6" fill="#13100B"/>
+</g>
+<g transform="translate(600,600) scale(1.05)">
+  <ellipse cx="0" cy="0" rx="230" ry="96" fill="none" stroke="url(#goldV)" stroke-width="46" transform="rotate(-18)"/>
+  <ellipse cx="0" cy="0" rx="230" ry="96" fill="none" stroke="#FFF" stroke-opacity="0.2" stroke-width="5" stroke-dasharray="120 999" transform="rotate(-18)" stroke-linecap="round"/>
+</g>
+<g stroke="url(#goldH)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85">
+  <path d="M 320,980 C 420,900 520,880 620,930"/>
+  <path d="M 620,930 C 700,970 780,970 880,910"/>
+</g>
+<circle cx="320" cy="984" r="14" fill="url(#goldV)"/>
+<circle cx="882" cy="908" r="14" fill="url(#goldV)"/>
+<ellipse cx="600" cy="1290" rx="430" ry="80" fill="url(#floor)"/>
+<g font-family="Georgia, serif" fill="#C9A227" opacity="0.8">
+  <text x="240" y="360" font-size="26" letter-spacing="10">ATELIER</text>
+</g>
+</svg>
